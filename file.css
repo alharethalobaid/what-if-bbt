@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui";
+body{
+    @apply bg-base-100 ;
+    background-image: url("pictures/only_backgroundv2.png");
+}
+#ttopp{
+    background-image: url("pictures/top2.png");
+     background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+.items{
+@apply text-center ;
+}
+.item3{
+@apply text-center mr-8;
+}
+.meals{
+    @apply card w-80 shadow-sm rounded-b-md;
+}
